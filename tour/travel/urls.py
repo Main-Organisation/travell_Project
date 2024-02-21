@@ -5,9 +5,10 @@ app_name = 'travel'
 
 urlpatterns = [
 
-    path('index/', views.index , name='index'),
+    
     path('', views.FirstPage, name='FirstPage'),
+    path('index/', views.index , name='index'),
     path('secondpage/', views.secondpage, name='secondpage'),
     path('therdpage/', views.therdpage, name='therdpage'),
-    path('ForthPage/', views.ForthPage, name='ForthPage'),
+    path('Forthpage/', views.ForthPage, name='Forthpage'),
 ]
