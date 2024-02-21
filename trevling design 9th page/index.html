@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- slider -->
+    <!-- fontfamily -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-family -->
+    <!-- recapcha -->
+  </head>
+  <body>
+    <header class="header border-bottom border-dark border-2 sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="images/deviantart.png" class="rounded-5" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active home-border fw-bold"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                  >Oneclick Deal</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                  >My Accoun</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                  >|India</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                >
+                  Singapore</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                  >Malaysia</a
+                >
+              </li>
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                >
+                  Indonesia</a
+                >
+              </li>
+              <!-- <li class="nav-item py-2">
+              <a class="nav-link active border-start border-dark py-0 fw-bold" href="#">Media</a>
+            </li> -->
+              <li class="nav-item py-2">
+                <a
+                  class="nav-link active border-start border-dark py-0 fw-bold"
+                  href="#"
+                  >Thailand</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <ul
+            class="nav nav-pills justify-content-center mb-3"
+            id="pills-tab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <a href="" class="nav-link active"id="pills-home-tab"data-bs-toggle="pill"data-bs-target="#pills-home"type="button"role="tab"aria-controls="pills-home"aria-selected="true">
+               Home
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a  href="" class="nav-link"id="pills-profile-tab"data-bs-toggle="pill"data-bs-target="#pills-profile"type="button"role="tab"aria-controls="pills-profile"aria-selected="false">
+               Book Hotel
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="" class="nav-link"id="pills-contact-tab"data-bs-toggle="pill"data-bs-target="#pills-contact"type="button"role="tab"aria-controls="pills-contact"aria-selected="false">
+                Book Transfer
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href=""  class="nav-link"id="pills-BookTours-tab"data-bs-toggle="pill"data-bs-target="#pills-BookTours"type="button"role="tab"aria-controls="pills-BookTours"aria-selected="false">
+                Book Tours
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="" class="nav-link"id="pills-TicketCoupons-tab"data-bs-toggle="pill"data-bs-target="#pills-TicketCoupons"type="button"role="tab"aria-controls="pills-TicketCoupons"aria-selected="false">
+                Ticket/Coupons
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href=""  class="nav-link"id="pills-Bookmeals-tab"data-bs-toggle="pill"data-bs-target="#pills-Bookmeals"type="button"role="tab"aria-controls="pills-Bookmeals"aria-selected="false">
+                Book Meals
+              </a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href=""  class="nav-link"id="pills-viewQuotation-tab"data-bs-toggle="pill"data-bs-target="#pills-viewQuotation"type="button"role="tab"aria-controls="pills-viewQuotation"aria-selected="false">
+                view Quotation
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="box-shadow p-2">
+          <div class="" class="">
+            <h3 class="text-center text-info border-bottom border-dark pb-1">
+              Add/Edit Package For web ID (IN009362)
+            </h3>
+            <div
+              class="w-25 border-bottom border-warning"
+              style="margin-top: -9px"
+            ></div>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <section class="py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                      <div class="box-shadow p-4">
+                        <div class="border-bottom border-dark">
+                          <h3>Add Hotel For Web Id (TH058105)</h3>
+                        </div>
+                        <div
+                          class="mt-2 d-flex justify-content-start align-items-center"
+                        >
+                          <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                            Arrival Date=
+                          </button>
+                          <input
+                            type="date"
+                            placeholder="Date And Time mx-1"
+                            class="bg-dark text-white px-4 p-1"
+                          />
+                          <button class="bg-dark text-white px-4 p-1 mx-1">
+                            Pax
+                          </button>
+                          <button class="bg-dark text-white px-4 p-1 mx-1 w-35">
+                            Adult = 2
+                          </button>
+                          <button class="bg-dark text-white p-3 mx-1"></button>
+                          <button class="bg-dark text-white p-3 mx-1"></button>
+                          <button class="bg-dark text-white p-3 mx-1"></button>
+                        </div>
+
+                        <div class="">
+                          <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                          <label
+                            for="userCity"
+                            class="form-label fs-5 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                            Select City*</label
+                          >
+                          <select
+                            class="w-50 ms-5 py-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>
+                              -Please Select City -
+                            </option>
+                            <option value="1">Bangkok</option>
+                            <option value="2">Hua Hin</option>
+                            <option value="4">Phi Phi Island</option>
+                            <option value="5">Krabi</option>
+                            <option value="6">Pattaya</option>
+                            <option value="7">Phuket</option>
+                            <option value="8">Chiang Mai</option>
+                            <option value="9">Koh Samui</option>
+                          </select>
+                          <div class="Krabi"></div>
+                        </div>
+                        <div class="border-bottom border-dark pt-2">
+                          <h3>karabi</h3>
+                        </div>
+                        <ul
+                          class="nav nav-pills mb-3 flex-nowrap pt-2"
+                          id="pills-tab"
+                          role="tablist"
+                        >
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link active tab-btn"
+                              id="hotel-categary-1"
+                              data-bs-toggle="pill"
+                              data-bs-target="#category-1"
+                              type="button"
+                              role="tab"
+                              aria-controls="pills-home"
+                              aria-selected="true"
+                            >
+                              Hotel category: Budget (WE Found 0 Hotels)
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link tab-btn"
+                              id="hotel-categary-2"
+                              data-bs-toggle="pill"
+                              data-bs-target="#category-2"
+                              type="button"
+                              role="tab"
+                              aria-controls="pills-profile"
+                              aria-selected="false"
+                            >
+                              Hotel category: 3 star (Select 0 Hotels)
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link tab-btn"
+                              id="hotel-categary-3"
+                              data-bs-toggle="pill"
+                              data-bs-target="#category-3"
+                              type="button"
+                              role="tab"
+                              aria-controls="pills-contact"
+                              aria-selected="false"
+                            >
+                              Hotel category: 4 star (Select 1 Hotels)
+                            </button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button
+                              class="nav-link tab-btn"
+                              id="hotel-categary-4"
+                              data-bs-toggle="pill"
+                              data-bs-target="#category-4"
+                              type="button"
+                              role="tab"
+                              aria-controls="pills-disabled"
+                              aria-selected="false"
+                            >
+                              Hotel category: 5 star (Select 0 Hotels)
+                            </button>
+                          </li>
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                          <div
+                            class="tab-pane fade show active"
+                            id="category-1"
+                            role="tabpanel"
+                            aria-labelledby="hotel-categary-1"
+                            tabindex="0"
+                          >
+                            <div class="d-flex">
+                              <p
+                                class="text-white py-1 me-1 px-1 w-50 back-gray"
+                              >
+                                Hotel name
+                              </p>
+                              <p class="text-white py-1 me-1 px-1 back-gray">
+                                Location
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20"
+                              >
+                                Starting From
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20 text-center"
+                              >
+                                Action
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            class="tab-pane fade"
+                            id="category-2"
+                            role="tabpanel"
+                            aria-labelledby="hotel-categary-2"
+                            tabindex="0"
+                          >
+                            <div class="d-flex">
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-50"
+                              >
+                                Hotel name
+                              </p>
+                              <p class="back-gray text-white py-1 me-1 px-1">
+                                Location
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20"
+                              >
+                                Starting From
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20 text-center"
+                              >
+                                Action
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            class="tab-pane fade"
+                            id="category-3"
+                            role="tabpanel"
+                            aria-labelledby="hotel-categary-3"
+                            tabindex="0"
+                          >
+                            <div class="d-flex">
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-50"
+                              >
+                                Hotel name
+                              </p>
+                              <p class="back-gray text-white py-1 me-1 px-1">
+                                Location
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20"
+                              >
+                                Starting From
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20 text-center"
+                              >
+                                Action
+                              </p>
+                            </div>
+                          </div>
+                          <div
+                            class="tab-pane fade"
+                            id="category-4"
+                            role="tabpanel"
+                            aria-labelledby="hotel-categary-4"
+                            tabindex="0"
+                          >
+                            <div class="d-flex">
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-50"
+                              >
+                                Hotel name
+                              </p>
+                              <p class="back-gray text-white py-1 me-1 px-1">
+                                Location
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 w-20"
+                              >
+                                Starting From
+                              </p>
+                              <p
+                                class="back-gray text-white py-1 me-1 px-1 text-center w-20"
+                              >
+                                Action
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                      <div class="box-shadow p-4">
+                        <h3 class="border-bottom border-dark pt-2">
+                          Your Cart
+                        </h3>
+                        <div
+                          class="border-bottom border-warning w-50 border-color"
+                        ></div>
+                        <input
+                          class="outline-border-none mt-2 px-2 py-1 w-100"
+                          type="search"
+                          placeholder="Empty Your Card !.."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <section class="py-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                      <div class="box-shadow p-4">
+                        <div class="border-bottom border-dark">
+                          <h3>Book Hotel For Web Id (TH058105)</h3>
+                        </div>
+                        <div
+                          class="mt-2 d-flex justify-content-start align-items-center"
+                        >
+                          <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                            Arrival Date= 13-DEC-2024
+                          </button>
+
+                          <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                            Pax: adult = 2
+                          </button>
+
+                          <button class="bg-dark text-white p-3 mx-1"></button>
+                          <button class="bg-dark text-white p-3 mx-1"></button>
+                        </div>
+                        <div>
+                          <p class="pt-1">Hotel Name:Centara Villas Samui</p>
+                          <p>
+                            Hotel Address:111 Moo 2, Maret, Natien Beach, Koh
+                            Samui, Suratthani 83410, Thailand
+                          </p>
+                        </div>
+
+                        <div class="">
+                          <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                          <div class="d-flex align-items-center">
+                            <label
+                              for="userCity"
+                              class="form-label fs-5 mt-3 fw-bolder d-inlin-block me-5"
+                            >
+                              <p class="mb-0">Nationality:</p></label
+                            >
+                            <p class="mb-0 pt-1 ms-5">Indian</p>
+                          </div>
+                          <label
+                            for="userCity"
+                            class="form-label fs-5 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                            Check in date:</label
+                          >
+                          <input
+                            type="date"
+                            class="w-50 ms-4 py-2  d-inline-block"
+                            required
+                          />
+
+                          <label
+                            for="userCity"
+                            class="form-label fs-5 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                            No. of Night</label
+                          >
+                          <select
+                            class="w-50 ml-39 py-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                          </select>
+                          <label
+                            for="userCity"
+                            class="form-label fs-5 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                            Check out date:</label
+                          >
+                          <input
+                            type="date"
+                            class="w-50 ml-10 py-2  d-inline-block"
+                            required
+                          />
+
+                          <div class="Krabi"></div>
+                        </div>
+                        <div class="border-bottom border-dark pt-2">
+                          <h3>Room Details</h3>
+                        </div>
+                        <div class="d-flex justify-content-between w-100 pt-1">
+                          <div class="w-25">
+                            <p class="text-center">No of Room</p>
+                            <select
+                              class="w-100 py-2 form-select d-inline-block"
+                              id="userCity"
+                              aria-label="Default select example"
+                              required
+                            >
+                              <option selected required>1</option>
+                              <option value="1">2</option>
+                              <option value="2">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                            </select>
+                          </div>
+                          <div class="w-35">
+                            <p class="text-center">Room Type</p>
+                            <select
+                              class="w-100 py-2 form-select d-inline-block"
+                              id="userCity"
+                              aria-label="Default select example"
+                              required
+                            >
+                              <option selected required>-SELECT-</option>
+                              <option value="1">single</option>
+                              <option value="2">double</option>
+                              <option value="4">Twin</option>
+                              <option value="5">Triple</option>
+                            </select>
+                          </div>
+                          <div class="w-35">
+                            <p class="text-center">Cat</p>
+                            <select
+                              class="w-100 py-2 form-select d-inline-block"
+                              id="userCity"
+                              aria-label="Default select example"
+                              required
+                            >
+                              <option selected required>-SELECT-</option>
+                              <option value="1">Garden Villa with Breakfast</option>
+                              <option value="2">Deluxe Ocean View Villa with Breakfast</option>
+                              <option value="4">Deluxe spa villa with Breakfast </option>
+                              <option value="5">Deluxe Pool Villa with Breakfast</option>
+                              <option value="6">Deluxe Pool Villa Ocean View with Breakfast </option>
+                              <option value="7">Premium Deluxe Pool Villa With Breakfast</option>
+                              <option value="8">Family Deluxe Pool Villa with Breakfast</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="mt-1 text-center">
+                          <button 
+                            class="p-1 rounded bg-primary text-white border-0 me-1"
+                          >
+                            <i class="fa-solid fa-plus text-white"></i> Add
+                          </button>
+                          <button
+                            class="p-1 rounded bg-primary text-white border-0"
+                          >
+                            <i class="fa-solid fa-minus text-white"></i> REMOVE
+                          </button>
+                        </div>
+                        <div class="mt-3 text-center">
+                          <button
+                            class="p-1 rounded bg-warning text-black border-0 me-1"
+                          >
+                            BACK
+                          </button>
+                          <button
+                            class="p-1 rounded bg-primary text-white border-0"
+                          >
+                            BOOK
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                      <div class="box-shadow p-4">
+                        <h3 class="border-bottom border-dark pt-2">
+                          Your Cart
+                        </h3>
+                        <div
+                          class="border-bottom border-warning w-50 border-color"
+                        ></div>
+                        <input
+                          class="outline-border-none mt-2 px-2 py-1 w-100"
+                          type="search"
+                          placeholder="Empty Your Card !.."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+            <section class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <div class="border-bottom border-dark">
+                        <h3>Book Transfer For Web Id (TH058105)</h3>
+                      </div>
+                      <div
+                        class="mt-2 d-flex justify-content-start align-items-center"
+                      >
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          Arrival Date= 
+                        </button>
+
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          21 - Dec - 2024
+                        </button>
+
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Pax
+                        </button>
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Adult=2
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                      </div>
+                      
+
+                      <div class="">
+                        <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                        
+
+                       
+                        
+
+                        <div class="Krabi"></div>
+                        <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-60"
+                          >
+                            Select City</label
+                          >
+                          <select
+                            class="w-50 ms-5 py-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Please Select city</option>
+                            <option value="1">Bangkok</option>
+                            <option value="2">Hua Hin</option>
+                            <option value="4">Krabi</option>
+                            <option value="5">Pattaya</option>
+                            <option value="6">Phuket</option>
+                            <option value="7">Koh Samui</option>
+                          </select>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-3"
+                          >
+                            Select Trensfer Pattern:</label
+                          >
+                          <select
+                            class="w-50  py-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>Select Pattern</option>
+                            <option value="1">Arrival</option>
+                            <option value="2">Departure</option>
+                            <option value="4">Other</option>
+                            
+                          </select>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-3"
+                          >
+                          Select Trensfer Name</label
+                          >
+                          <select
+                            class="w-50  py-2 form-select d-inline-block ms-3"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required> Please Select Trensfer Name</option>
+                            <option value="1">Bangkok Hotel to Pattaya Hotel</option>
+                            <option value="2">Krabi Hotel to Bangkok Hotel</option>
+                            <option value="4">Pattaya Hotel to Krabi Hotel</option>
+                          </select>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                          Trensfer Type</label
+                          >
+                          <select
+                            class="w-50 ml-39 py-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required> Please Select Trensfer </option>
+                            <option value="1">SIC</option>
+                            <option value="2">PVT</option>
+                          </select>
+                          <label
+                          for="userCity"
+                          class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                        >
+                        Trensfer Date</label
+                        >
+                        <input type="date" class="w-50 ml-39 p-2  d-inline-block" required>
+                        
+                      </div>
+                      
+                      
+                      <div class="mt-2 text-center">
+                       
+                        <button
+                          class="p-1 rounded bg-primary text-white border-0"
+                        >
+                          BOOK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <h3 class="border-bottom border-dark pt-2">
+                        Your Cart
+                      </h3>
+                      <div
+                        class="border-bottom border-warning w-50 border-color"
+                      ></div>
+                      <input
+                        class="outline-border-none mt-2 px-2 py-1 w-100"
+                        type="search"
+                        placeholder="Empty Your Card !.."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-BookTours"
+              role="tabpanel"
+              aria-labelledby="pills-BookTours-tab"
+            >
+               <section class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <div class="border-bottom border-dark">
+                        <h3>Add Tour And Ticket/Coupons For Web Id (TH058105)</h3>
+                      </div>
+                      <div
+                        class="mt-2 d-flex justify-content-start align-items-center"
+                      >
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          Arrival Date= 
+                        </button>
+
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          21 - Dec - 2024
+                        </button>
+
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Pax
+                        </button>
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Adult=2
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                      </div>
+                      
+
+                      <div class="">
+                        <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                        
+
+                       
+                        
+
+                        <div class="Krabi"></div>
+                        <div><label
+                          for="userCity"
+                          class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                        >
+                          Country</label
+                        >
+                        <select
+                          class="w-50  py-2 form-select d-inline-block"
+                          id="userCity"
+                          aria-label="Default select example"
+                          required
+                        >
+                          <option selected required>Thailand</option>
+                          <option value="1">Bangkok</option>
+                          <option value="2">Hua Hin</option>
+                          <option value="4">Krabi</option>
+                          <option value="5">Pattaya</option>
+                          <option value="6">Phuket</option>
+                          <option value="7">Koh Samui</option>
+                        </select></div>
+                          <div><label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-4"
+                          >
+                            Select City</label
+                          >
+                          <select
+                            class="w-50  py-2 ms-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Please Select City</option>
+                            <option value="1">Pattaya</option>
+                            <option value="2">Krabi</option>
+                            <option value="3">Phuket</option>
+                            <option value="4">Koh Samui</option>
+                            <option value="5">Bangkok</option>
+                            
+                          </select>
+                        </div>
+                        <div>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-4"
+                          >
+                          Select Tour</label
+                          >
+                          <select
+                            class="w-50  py-2 form-select d-inline-block ms-1"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Please Select Tour Type</option>
+                            <option value="1">ALL TOURS</option>
+                            <option value="2">half Day</option>
+                            <option value="3">Short tour</option>
+                            <option value="4">Full Day</option>
+                          </select>
+                        </div>
+                
+                          
+                        
+                      </div>
+                      
+                      
+                     <div class="mt-2">
+                      <p class="fs-4 fw-bolder"> List View</p>
+                      <div class="d-flex w-100">
+                        <p class="p-1 back-gray ms-1 w-100 text-black">S.No.</p>
+                        <p class="p-1 back-gray ms-1 w-100 text-black">Tour Name</p>
+                        <p class="p-1 back-gray ms-1 w-100 text-black">Tour Type</p>
+                        <p class="p-1 back-gray ms-1 w-100 text-black">PVT</p>
+                        <p class="p-1 back-gray ms-1 w-100 text-black">Action</p>
+                      </div>
+                     </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <h3 class="border-bottom border-dark pt-2">
+                        Your Cart
+                      </h3>
+                      <div
+                        class="border-bottom border-warning w-50 border-color"
+                      ></div>
+                      <input
+                        class="outline-border-none mt-2 px-2 py-1 w-100"
+                        type="search"
+                        placeholder="Empty Your Card !.."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-TicketCoupons"
+              role="tabpanel"
+              aria-labelledby="pills-TicketCoupons-tab"
+            >
+            <section class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <div class="border-bottom border-dark">
+                        <h3>Add Ticket/Coupons For Web Id (TH058105)</h3>
+                      </div>
+                      <div
+                        class="mt-2 d-flex justify-content-start align-items-center"
+                      >
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          Arrival Date= 
+                        </button>
+
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          21 - Dec - 2024
+                        </button>
+
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Pax
+                        </button>
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Adult=2
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                      </div>
+                      
+
+                      <div class="">
+                        <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                        
+
+                       
+                        
+
+                        <div class="Krabi"></div>
+                        <div><label
+                          for="userCity"
+                          class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                        >
+                          Country</label
+                        >
+                        <select
+                          class="w-50  py-2 form-select d-inline-block"
+                          id="userCity"
+                          aria-label="Default select example"
+                          required
+                        >
+                          <option selected required>Thailand</option>
+                          <option value="1">Bangkok</option>
+                          <option value="2">Hua Hin</option>
+                          <option value="4">Krabi</option>
+                          <option value="5">Pattaya</option>
+                          <option value="6">Phuket</option>
+                          <option value="7">Koh Samui</option>
+                        </select></div>
+                          <div><label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-4"
+                          >
+                            Select City</label
+                          >
+                          <select
+                            class="w-50  py-2 ms-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Please Select City</option>
+                            <option value="1">Pattaya</option>
+                            <option value="2">Krabi</option>
+                            <option value="3">Phuket</option>
+                            <option value="4">Koh Samui</option>
+                            <option value="5">Bangkok</option>
+                            
+                          </select>
+                        </div>
+                        <div>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                          >
+                          Date</label
+                          >
+                          <input type="date" class="w-50  py-2 ms-4  d-inline-block">
+                        </div>
+                
+                          
+                        
+                      </div>
+                      
+                      <div class="mt-2">
+                        <p class="fs-4 fw-bolder"> List View</p>
+                        <div class="d-flex w-100">
+                          <p class="p-1 back-gray ms-1 w-100 text-black">S.No.</p>
+                          <p class="p-1 back-gray ms-1 w-100 text-black">Tour Name</p>
+                          <p class="p-1 back-gray ms-1 w-100 text-black">Tour Type</p>
+                          <p class="p-1 back-gray ms-1 w-100 text-black">PVT</p>
+                          <p class="p-1 back-gray ms-1 w-100 text-black">SIC</p>
+                        </div>
+                       </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <h3 class="border-bottom border-dark pt-2">
+                        Your Cart
+                      </h3>
+                      <div
+                        class="border-bottom border-warning w-50 border-color"
+                      ></div>
+                      <input
+                        class="outline-border-none mt-2 px-2 py-1 w-100"
+                        type="search"
+                        placeholder="Empty Your Card !.."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-Bookmeals"
+              role="tabpanel"
+              aria-labelledby="pills-Bookmeals-tab"
+            >
+            <section class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <div class="border-bottom border-dark">
+                        <h3>Add Meals For Web Id (TH058105)</h3>
+                      </div>
+                      <div
+                        class="mt-2 d-flex justify-content-start align-items-center"
+                      >
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          Arrival Date= 
+                        </button>
+
+                        <button class="bg-dark text-white px-4 p-1 mx-1 w-50">
+                          21 - Dec - 2024
+                        </button>
+
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Pax
+                        </button>
+                        <button class="bg-dark text-white px-4 mx-1 p-1">
+                          Adult=2
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                        <button class="bg-dark text-white p-3 mx-1">
+                          
+                        </button>
+                      </div>
+                      
+
+                      <div class="">
+                        <!-- <p class="fw-bold d-inline-block">Select City</p> -->
+                        
+
+                       
+                        
+
+                        <div class="Krabi"></div>
+                        <div><label
+                          for="userCity"
+                          class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-5"
+                        >
+                          Country</label
+                        >
+                        <select
+                          class="w-50  py-2 form-select d-inline-block"
+                          id="userCity"
+                          aria-label="Default select example"
+                          required
+                        >
+                          <option selected required>Thailand</option>
+                          <option value="1">Bangkok</option>
+                          <option value="2">Hua Hin</option>
+                          <option value="4">Krabi</option>
+                          <option value="5">Pattaya</option>
+                          <option value="6">Phuket</option>
+                          <option value="7">Koh Samui</option>
+                        </select></div>
+                          <div><label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-4"
+                          >
+                            Select City</label
+                          >
+                          <select
+                            class="w-50  py-2 ms-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Please Select City</option>
+                            <option value="1">Pattaya</option>
+                            <option value="2">Krabi</option>
+                            <option value="3">Phuket</option>
+                            <option value="4">Koh Samui</option>
+                            <option value="5">Bangkok</option>
+                            
+                          </select>
+                        </div>
+                        <div>
+                          <label
+                            for="userCity"
+                            class="form-label fs-6 mt-3 fw-bolder d-inlin-block me-4"
+                          >
+                          Meal Type</label
+                          >
+                          <select
+                            class="w-50  py-2 ms-2 form-select d-inline-block"
+                            id="userCity"
+                            aria-label="Default select example"
+                            required
+                          >
+                            <option selected required>-Select Meal Type</option>
+                            <option value="1">without Transfer</option>
+                            <option value="2">Transfer</option>
+                            
+                          </select>
+                        </div>
+                
+                          
+                        
+                      </div>
+                      
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="box-shadow p-4">
+                      <h3 class="border-bottom border-dark pt-2">
+                        Your Cart
+                      </h3>
+                      <div
+                        class="border-bottom border-warning w-50 border-color"
+                      ></div>
+                      <input
+                        class="outline-border-none mt-2 px-2 py-1 w-100"
+                        type="search"
+                        placeholder="Empty Your Card !.."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+
+            <div class="tab-pane fade"id="pills-viewQuotation"role="tabpanel"aria-labelledby="pills-viewQuotation-tab">
+              <table class="table border border-2 mt-2">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Useful Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>123 Street, City, Country</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1234567890</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

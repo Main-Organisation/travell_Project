@@ -1,0 +1,197 @@
+:root {
+  --primery: #3734fd;
+  --secondery-color: #79cbd6;
+  --h1: 64px;
+  --h2: 36px;
+  --s-text: 14px;
+  --m-heading: 22px;
+  --b-heading: 500;
+  --border: 1px;
+  --font-weight: 500;
+  --padding: 100px 0px;
+  }
+  
+  /*--Header--*/
+  /* Custom CSS for the header */
+  .header {
+  background-color: #fff; /* Background color */
+  padding: 10px 0; /* Padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .navbar-brand img {
+  max-width: 100px; /* Adjust the max-width of the logo */
+  }
+  
+  .navbar-nav .nav-link {
+  color: #333; /* Text color */
+  font-weight: bold; /* Font weight */
+  padding: 10px 15px; /* Padding */
+  }
+  
+  .navbar-nav .nav-link:hover {
+  color: #555; /* Text color on hover */
+  }
+  
+  /* Styling for active link */
+  .navbar-nav .nav-link.active {
+  color: #007bff; /* Active link color */
+  }
+  
+  /* Styling for borders */
+  .navbar-nav .nav-link.border-start {
+  border-left: 1px solid #333; /* Border color */
+  }
+  
+  /* Styling for sticky header */
+  .header.sticky-top {
+  background-color: #fff; /* Background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
+  }
+  
+  /*--Cards--*/
+  
+  /* Custom CSS for styling cards */
+  .card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  }
+  
+  .card-title {
+  color: #333;
+  font-weight: bold;
+  }
+  
+  .card-text {
+  color: #666;
+  }
+  
+  .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  }
+  
+  /*--Home page promotion slider css-*/
+  /* Custom CSS for Owl Carousel Navigation */
+  .owl-prev,
+  .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #333;
+  }
+  
+  .owl-prev {
+  left: 10px;
+  }
+  
+  .owl-next {
+  right: 10px;
+  }
+  
+  .owl-prev:hover,
+  .owl-next:hover {
+  background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+  }
+  
+  .owl-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  
+  .owl-dot.active {
+  background-color: #333;
+  }
+  
+  /*--Home page form --*/
+  
+  .tab-form .nav-item a {
+  font-size: 14px;
+  padding: 4px 4px !important;
+  }
+  
+.icon{
+  top: 7px;
+  right: 16px;
+}
+  /*--Footer--*/
+  
+  /* Custom CSS for the footer */
+  .footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  }
+  
+  .footer h5 {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+  .footer p {
+  color: #666;
+  font-size: 16px;
+  }
+  
+  .footer ul {
+  padding-left: 0;
+  list-style: none;
+  }
+  
+  .footer ul li {
+  margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+  color: #666;
+  text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+  color: #000;
+  }
+  
+  .footer .col-md-12 p {
+  color: #666;
+  font-size: 14px;
+  }
+  
+  .footer .col-md-12 p a {
+  color: #666;
+  text-decoration: none;
+  }
+  
+  .footer .col-md-12 p a:hover {
+  color: #000;
+  }
+  
